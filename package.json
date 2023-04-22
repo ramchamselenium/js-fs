@@ -1,0 +1,20 @@
+{
+  "name": "js-fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "access.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramchamselenium/js-fs.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramchamselenium/js-fs/issues"
+  },
+  "homepage": "https://github.com/ramchamselenium/js-fs#readme"
+}
