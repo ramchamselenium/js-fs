@@ -16,6 +16,10 @@ jobs:
       - run:
           name: Run appendFile
           command: node appendFile.js
+      - run:
+          name: Run appendFileSync
+          command: node appendFileSync.js
+
 
 workflows:
   workflow-name:
