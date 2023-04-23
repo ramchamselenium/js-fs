@@ -20,7 +20,6 @@ jobs:
           name: Run appendFileSync
           command: node appendFileSync.js
 
-
 workflows:
   workflow-name:
     jobs:
