@@ -21,7 +21,7 @@ jobs:
           command: node appendFileSync.js
       - run:
           name: Run copyFile
-          command: node copyFIle.js
+          command: node copyFile.js
 
 workflows:
   workflow-name:
