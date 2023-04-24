@@ -23,7 +23,7 @@ jobs:
           name: Run copyFile
           command: node copyFile.js
       - run:
-          name: Run copyFile
+          name: Run copyFileSync
           command: node copyFileSync.js
 
 workflows:
