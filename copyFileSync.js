@@ -9,6 +9,6 @@ function callback(err) {
 copyFileSync('source.txt', 'deletedestination.txt');
 console.log('source.txt was copied to destination.txt');
 
-rm('Deletedestination.txt', callback)
+rm('deletedestination.txt', callback)
 // By using COPYFILE_EXCL, the operation will fail if destination.txt exists.
 //copyFileSync('source.txt', 'deletedestination.txt', constants.COPYFILE_EXCL);
