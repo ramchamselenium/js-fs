@@ -25,6 +25,9 @@ jobs:
       - run:
           name: Run copyFileSync
           command: node copyFileSync.js
+      - run:
+          name: Run writeFile
+          command: node writeFile.js
 
 workflows:
   workflow-name:
