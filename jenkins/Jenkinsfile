@@ -16,6 +16,7 @@ pipeline {
             steps {
                 dir("js-fs") {
                     sh "node access.js"
+                    sh "node accessSync.js"
                 }
             }
         }
