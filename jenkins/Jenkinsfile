@@ -1,9 +1,16 @@
 pipeline {
     agent any
     stages {
-        stage('Test') {
+        stage('Clone Repo') {
             steps {
                 sh 'git clone https://github.com/ramchamselenium/js-fs.git'
+            }
+        }
+        stage("Build"){
+            steps {
+                dir("js-fs") {
+                    sh "node access.js"
+                }
             }
         }
     }
