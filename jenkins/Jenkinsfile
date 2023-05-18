@@ -1,16 +1,3 @@
 pipeline {
     agent any
-
-    stages {
-        stage('Build') {
-            steps {
-                sh 'node access.js'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'node accessSync.js'
-            }
-        }
-    }
 }
