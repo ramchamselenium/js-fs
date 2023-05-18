@@ -17,6 +17,11 @@ pipeline {
                 dir("js-fs") {
                     sh "node access.js"
                     sh "node accessSync.js"
+                    sh "node appendFile.js"
+                    sh "node appendFileSync.js"
+                    sh "node copyFile.js"
+                    sh "node copyFileSync.js"
+                    sh "node writeFile.js"
                 }
             }
         }
