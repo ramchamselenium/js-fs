@@ -1,6 +1,11 @@
 pipeline {
     agent any
     stages {
+        stage("Tear Down"){
+            steps {
+                deleteDir()
+            }
+        }
         stage('Clone Repo') {
             steps {
                 sh 'git clone https://github.com/ramchamselenium/js-fs.git'
